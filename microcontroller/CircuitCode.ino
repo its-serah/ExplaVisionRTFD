@@ -15,7 +15,6 @@ const char* apiEndpoint = "localhost:3000/capture";
 
 void setup() {
   Serial.begin(115200);
-  delay(1000);
   Serial.println();
 
   Serial.print("Connecting to ");
